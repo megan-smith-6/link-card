@@ -39,13 +39,14 @@ p {
 
 dd {
   margin: 0;
-  text-align: right;
+  text-align: center;
   font-style: italic;
+  float: right;
 }
 
 .btn-wrap {
   text-align: center;
-  margin: 1rem 0 0
+  margin: 1rem 0 0;
 }
 
 .btn {
