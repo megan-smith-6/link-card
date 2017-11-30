@@ -9,10 +9,10 @@ html {
 }
 
 .link-card {
-  text-decoration: none;
   display: block;
-  border-radius: 6.5px;
+  text-decoration: none;
   background-color: #dcd4cd;
+  border-radius: 6.5px;
   border: solid #9a816d;
   padding: 1rem;
 }
@@ -31,15 +31,15 @@ p {
 
 .link-card nav {
   line-height: 1.5rem;
-  color: #512200;
   font-size: .875rem;
+  color: #512200;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
 }
 
 dd {
-  text-align: right;
   margin: 0;
+  text-align: right;
   font-style: italic;
 }
 
@@ -52,11 +52,11 @@ dd {
   display: inline-block;
   font-family: Dosis, sans-serif;
   color: #f0eee8;
+  font-weight: bold;
+  line-height: 1.5rem;
   background-color: #785439;
   padding: .4em .75em .5em;
   border-radius: 8px;
-  font-weight: bold;
-  line-height: 1.5rem;
 }
 
 .link-card:hover {
