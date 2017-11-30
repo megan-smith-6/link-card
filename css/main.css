@@ -7,6 +7,24 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  font-family: 'Dosis', sans-serif;
+h2 {
+  font-family: "Dosis", sans-serif;
+}
+
+.link-card {
+  display: inline;
+  background-color: #dcd4cd;
+  border-radius: 3px;
+}
+
+dd {
+  margin: 0;
+}
+
+.btn-wrap {
+  text-decoration: none;
+}
+
+.btn {
+
 }
