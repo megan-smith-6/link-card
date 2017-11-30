@@ -9,18 +9,24 @@ html {
 
 .link-card {
   text-decoration: none;
-  display: inline;
+  display: block;
   border-radius: 3px;
   background-color: #dcd4cd;
+}
+
+p {
+  color: #512200;
 }
 
 .link-card h2 {
   font-family: "Dosis", sans-serif;
   color: #512200;
+
 }
 
 .link-card nav {
   line-height: 1.5rem;
+  color: #512200;
 }
 
 dd {
@@ -34,12 +40,13 @@ dd {
 
 .btn {
   background-color: #9a816d;
-  display: inline;
+  display: inline-block;
   color: #f0eee8;
 }
 
 .link-card:hover {
   background-color: #cabdb2;
+  border-color: #9a816d;
 }
 
 .link-card:hover .btn {
